@@ -183,11 +183,13 @@ text-decoration-skip-ink: none;
 }
 .money-not-absolute{
     position:relative;
+    display: flex;
+    flex-direction: column;
 }
 .money-align{
     position: absolute; 
     left: 220px; 
-    transition: all 0.5s ease;
+   margin-top: 290px;
     
 }
 .money-font{
